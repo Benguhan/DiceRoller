@@ -1,8 +1,27 @@
+body {
+    background-image: url(/images/pexels-nico-meucci-9126623.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 #container {
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
 }
 
 button {
@@ -29,6 +48,8 @@ input {
     font-weight: bold;
     width: 150px;
     text-align: center;
+    border: none;
+    border-radius: 6px;
 }
 
 #diceResult {
